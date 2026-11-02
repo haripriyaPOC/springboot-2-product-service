@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: product-service
-          # Replace with your registry/image, for example: docker.io/YOUR_DOCKERHUB_USER/product-service:1.0.0
-          #image: YOUR_REGISTRY/product-service:1.0.0
+          
+         
           image: haripriya1310/demo22-backend:v1
           ports:
             - name: http
