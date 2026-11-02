@@ -35,7 +35,6 @@ jobs:
           docker build \
             -t ${{ secrets.DOCKER_USERNAME }}/demo22-backend:v1 .
             
-
       - name: Push Docker Image
         run: |
           docker push \
